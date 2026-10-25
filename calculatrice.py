@@ -13,10 +13,15 @@ app.title("Interface Calculatrice")
 
 # --- Les Fonctions ---
 def click_btn(nombre):
+    
     res = resultat_label.cget("text")
+    longueur =len(res)
     # Si l'écran affiche "0" ou "erreur", on remplace le texte au lieu d'ajouter à la suite
     if res == "0" or res == "erreur":
         resultat_label.configure(text=str(nombre))
+    elif str(nombre) == "." : 
+        if verification_virgule(res):
+            resultat_label.configure(text=str(res))
     else:
         resultat_label.configure(text=str(res) + str(nombre))
 
@@ -30,6 +35,22 @@ def click_EXE():
 
 def clear_ecran():
     resultat_label.configure(text="0")
+
+def verification_virgule(calculAVerif, nbPrecedent = 0, charPrecendent = ""):
+    lengthCalcul = len(calculAVerif)
+    
+    if charPrecendent == ".":
+        return True 
+    elif charPrecendent != calculAVerif[nbPrecedent] and not isinstance(calculAVerif[nbPrecedent], int) :
+        return self.verification_virgule(calculAVerif , nbPrecedent + 1 , charPrecendent = calculAVerif[nbPrecedent] )
+    elif nbPrecedent <  lengthCalcul :
+            return self.verification_virgule(calculAVerif , nbPrecedent + 1 , charPrecendent)
+    else:
+        return False
+
+
+
+
 
 
 # --- Interface Graphique (Grid Layout) ---
