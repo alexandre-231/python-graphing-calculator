@@ -1,0 +1,12 @@
+2026-10-25 17:56:22.256 [info] [node-compile-cache] main: packaged cache inactive (status: disabled, configured: /usr/share/code/resources/app/node-compile-cache/main, active: none)
+2026-10-25 17:56:22.269 [info] StorageMainService: creating application shared storage
+2026-10-25 17:56:22.588 [info] [shared storage] Creating shared storage database at '/root/.vscode-shared/sharedStorage/state.vscdb' (wasCreated: true)
+2026-10-25 17:56:22.588 [info] [shared storage] Initializing fallback application storage (path: /home/alex/Documents/calculatrice graphique/alex/User/globalStorage/state.vscdb)
+2026-10-25 17:56:22.624 [info] [shared storage] Fallback application storage initialized with 3 items
+2026-10-25 17:56:25.049 [info] update#setState idle
+2026-10-25 17:56:25.117 [info] AgentHostProcessManager: agent host started
+2026-10-25 17:56:27.679 [error] [AgentHost:stderr] (node:44387) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+
+2026-10-25 17:56:55.060 [info] update#setState checking for updates
+2026-10-25 17:56:55.104 [info] update#setState idle

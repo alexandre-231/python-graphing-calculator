@@ -1,0 +1,35 @@
+2026-10-25 17:56:26.595 [info] Agent Host process started successfully
+2026-10-25 17:56:27.511 [info] AgentService initialized
+2026-10-25 17:56:27.551 [info] Registering agent provider: copilotcli
+2026-10-25 17:56:27.555 [info] Registering agent provider: claude
+2026-10-25 17:56:27.562 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-10-25 17:56:27.564 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-10-25 17:56:27.663 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-10-25 17:56:27.667 [info] [Claude] Models refreshed (merged). Count: 0, 
+2026-10-25 17:56:27.704 [info] [Copilot] Listing chats to migrate...
+2026-10-25 17:56:27.711 [info] [Copilot] Starting CopilotClient...
+2026-10-25 17:56:27.713 [info] [Copilot] Set CLI env: GITHUB_COPILOT_INTEGRATION_ID=vscode-chat
+2026-10-25 17:56:27.740 [info] [ProtocolServer] Initialize: clientId=cfdf8145-be68-4685-919a-69e38fc4e443, protocolVersions=[1.0.0, 0.10.0, 0.9.0]
+2026-10-25 17:56:27.752 [info] [Copilot] Using bundled runtime path: /usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/prebuilds/linux-x64/copilot-runtime
+2026-10-25 17:56:27.851 [info] [AgentService] showExternalSessions changed 'none' -> 'last7Days'; queueing session list reconciliation
+2026-10-25 17:56:27.858 [info] Registering agent provider: codex
+2026-10-25 17:56:27.936 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-10-25 17:56:28.274 [info] [WebSocketProtocol] Server listening on socket /tmp/vscode-ah-bb98bdc7f345/DFbvGBIJN-86kBU35RX4JQ.sock
+2026-10-25 17:56:28.399 [info] [CommandAutoApprover] Tree-sitter initialized (bash=available, powershell=available)
+2026-10-25 17:56:28.400 [info] [Copilot] CopilotClient started successfully
+2026-10-25 17:56:28.545 [info] [Copilot] Listed 0 SDK session(s) for chats to migrate
+2026-10-25 17:56:28.545 [info] [Copilot] Found 0 legacy sessions
+2026-10-25 17:56:28.603 [info] [node-compile-cache] agent-host: packaged cache inactive (status: disabled, configured: /usr/share/code/resources/app/node-compile-cache/agent-host, active: none)
+2026-10-25 17:56:28.719 [info] [CopilotDiscovery] Started: maxCandidateWatches=32, maxConcurrentStats=4, coalesceMs=500
+2026-10-25 17:56:28.726 [info] [AgentService] sessions_v2 import for provider copilotcli: 0 synchronized, 0 current, 0 excluded, 0 stale exclusions, 0 incomplete, 0 failed, marker set in 1157ms (0 db opens, 0 db stats)
+2026-10-25 17:56:28.736 [info] [CopilotDiscovery] Scan 1 started: initial=true, candidates=0, reasons={}, watched=0, pending=0, ignoredHostEvents=0
+2026-10-25 17:56:28.738 [info] [Copilot] Listing discoverable chats...
+2026-10-25 17:56:28.755 [info] [AgentService] pruned 0 stale external session row(s) older than 30 days
+2026-10-25 17:56:28.766 [info] [Claude] SDK not downloaded yet; deferring chat discovery
+2026-10-25 17:56:28.767 [info] [Copilot] Listed 0 SDK session(s) for discoverable chats
+2026-10-25 17:56:28.801 [info] [CopilotDiscovery] Scan 1 catalog: sdkSessions=0, candidates=0, listMs=30, classifyMs=34, published=0, external=0, legacy=0, known=0, disabledLegacy=0, archivedLegacy=0, missingCwd=0, unsupportedClient=0, stale=0, failed=0
+2026-10-25 17:56:28.802 [info] [CopilotDiscovery] Scan 1 finished: elapsedMs=66, completed=0, pending=0, watched=0, overflow=0, ignoredHostEvents=0
+2026-10-25 17:56:33.904 [info] [Copilot] Startup config changed (tgrep=true), restarting CopilotClient
+2026-10-25 17:56:33.911 [info] [Copilot] Restarting CopilotClient (startup config changed: tgrep=true)
+2026-10-25 17:56:34.003 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-10-25 17:56:34.027 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
